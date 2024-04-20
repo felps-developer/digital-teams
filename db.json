@@ -1,28 +1,28 @@
 {
-    "teams": [
-        {
-            "id": 1,
-            "nome": "team fs07",
-            "capacidade": 20
-
-        },
-        {
-            "id": 2,
-            "nome": "team fs08",
-            "capacidade": 25
-
-        },
-        {
-            "id": 3,
-            "nome": "team fs13",
-            "capacidade": 30
-
-        }
-    ],
-    "participante": [
-        {
-            "id": 1,
-            "nome": "Felipe"
-        }
-    ]
+  "teams": [
+    {
+      "id": "1",
+      "nome": "team fs07",
+      "capacidade": 20,
+      "participantes": []
+    },
+    {
+      "id": "2",
+      "nome": "team fs08",
+      "capacidade": 25,
+      "participantes": []
+    },
+    {
+      "id": "3",
+      "nome": "team fs13",
+      "capacidade": 30,
+      "participantes": []
+    },
+    {
+      "id": "f2b2",
+      "nome": "team fs15",
+      "capacidade": "15",
+      "participantes": []
+    }
+  ]
 }

@@ -8,7 +8,7 @@ const Header = () => {
                     <h1>Logo</h1>
                 </div>
                 <div className="pesquisa relative w-4">
-                    <i className="pi pi-search absolute z-index-1 right-0 top-50 -mt-2 mr-3"></i>
+                    <i className="pi pi-search absolute z-index-1 right-0 top-50 -mt-2 mr-3 cursor-pointer" ></i>
                    <InputText className='w-full' placeholder='Pesquisar por nome'/>
                 </div>
 
