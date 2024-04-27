@@ -4,19 +4,30 @@
       "id": "1",
       "nome": "team fs07",
       "capacidade": 20,
-      "participantes": []
+      "participantes": [
+        "Felipe",
+        "teste",
+        "teste2"
+      ]
     },
     {
       "id": "2",
       "nome": "team fs08",
       "capacidade": 25,
-      "participantes": []
+      "participantes": [
+        "teste"
+      ]
     },
     {
       "id": "3",
       "nome": "team fs13",
       "capacidade": 30,
-      "participantes": []
+      "participantes": [
+        "d",
+        "a",
+        "s",
+        "e"
+      ]
     },
     {
       "id": "f2b2",
