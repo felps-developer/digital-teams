@@ -96,14 +96,14 @@ const List = () => {
         })
     }
 
-   
+
 
     useEffect(() => {
-       if(filter != ""){
+        if (filter != "") {
             setTeamsFiltered([...teams.filter((team) => team.nome.toLowerCase().includes(filter.toLowerCase()))]);
             return;
-       }
-       setTeamsFiltered(teams)
+        }
+        setTeamsFiltered(teams)
     }, [filter, teams]);
 
 
@@ -186,7 +186,7 @@ const List = () => {
                 {
                     // tamanhoTime = 
                     teamSelected.current && teams.find(team => team.id == teamSelected.current).participantes.map((nome, index, array) => (
-                        array.length != 0 ? <h5 key={index}>{nome}</h5> : <h5>Não tem participantes</h5>
+                        <h5 className="flex justify-content-between align-items-center" key={index}> {nome} <i className="pi pi-trash cursor-pointer" onClick={() => alert("deletou")}></i></h5>
 
                     ))
                 }
